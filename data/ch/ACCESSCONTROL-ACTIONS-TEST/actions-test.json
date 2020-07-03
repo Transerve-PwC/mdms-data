@@ -16469,6 +16469,21 @@
       "code": "null",
       "path": "CreateOwnershipTransfer"
     },
+<<<<<<< HEAD
+=======
+    {
+      "id": 4039,
+      "name": "UpdateOwnershipTransfer",
+      "url": "/csp/ownership-transfer/_update",
+      "displayName": "Update Ownership Transfer",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "UpdateOwnershipTransfer",
+      "code": "null",
+      "path": "UpdateOwnershipTransfer"
+    },
+>>>>>>> 3d2ab120770309a04de8e49c45a748326f14f304
 	  {
             "id": 4201,
             "name": "rainmaker-common-pms",

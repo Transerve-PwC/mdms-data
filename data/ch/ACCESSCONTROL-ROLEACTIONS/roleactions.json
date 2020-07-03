@@ -28210,6 +28210,21 @@
       "tenantId": "ch"
     },
     {
+<<<<<<< HEAD
+=======
+      "rolecode": "CITIZEN",
+      "actionid": 4039,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 4039,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+>>>>>>> 3d2ab120770309a04de8e49c45a748326f14f304
       "rolecode": "DDO",
       "actionid": 1534,
       "actioncode": "",
