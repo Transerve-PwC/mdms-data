@@ -29953,12 +29953,6 @@
       "tenantId": "ch"
     },
 	{
-      "rolecode": "TL_APPROVER",
-      "actionid": 4050,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-	{
       "rolecode": "EMPLOYEE",
       "actionid": 4050,
       "actioncode": "",
@@ -29971,12 +29965,6 @@
       "tenantId": "ch"
     },
 	{
-      "rolecode": "TL_APPROVER",
-      "actionid": 4051,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-	{
       "rolecode": "EMPLOYEE",
       "actionid": 4051,
       "actioncode": "",
@@ -29985,12 +29973,6 @@
 	{
       "rolecode": "CITIZEN",
       "actionid": 4051,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-	{
-      "rolecode": "TL_APPROVER",
-      "actionid": 4052,
       "actioncode": "",
       "tenantId": "ch"
     },
