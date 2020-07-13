@@ -454,7 +454,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "CTL.RENTED_PROPERTIES",
+      "service": "RENTED_PROPERTIES",
       "code": "CTLOBM10YRS2019",
       "financialYear": "2020-30"
     },

@@ -83,7 +83,7 @@
     },
     {
       "businessService": "RentedProperties",
-      "code": "CTL.RENTED_PROPERTIES",
+      "code": "RENTED_PROPERTIES",
       "collectionModesNotAllowed": [
         "DD"
       ],
