@@ -152,7 +152,7 @@
         {
             "code": "INDEMNITY_BOND",
             "required": true,
-            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "fileType": "ALLTYPES",
             "description": "INDEMNITY_BOND_DESCRIPTION"
         },
