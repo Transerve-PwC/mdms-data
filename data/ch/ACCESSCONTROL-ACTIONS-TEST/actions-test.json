@@ -19735,6 +19735,18 @@
       "leftIcon": "social:people",
       "rightIcon": "",
       "queryParams": ""
+    },
+    {
+      "id": 4412,
+      "name": "AccountStatementExcelGenerationApi",
+      "url": "/rp-services/property/_accountstatementxlsx",
+      "displayName": "Account Statement Excel Generation API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "AccountStatementExcelGenerationApi",
+      "code": "null",
+      "path": "AccountStatementExcelGenerationApi"
     }
   ]
 }
