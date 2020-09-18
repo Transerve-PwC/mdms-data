@@ -508,7 +508,7 @@
       "name": "COMMISSIONER",
       "description": "Employee who verifies, rejects and approves the TL application which is approved by SI"
     },
-	{
+	  {
       "code": "RP_CLERK",
       "name": "CLERK",
       "description": "Employee who verifies, rejects and approves the RP application"
