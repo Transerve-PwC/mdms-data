@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstatePropertyService",
-  "EstateBranch_OwnershipTransfer_InstestateDeath": [
+  "EstateBranch_OwnershipTransfer_IntestateDeath": [
     {
       "fields": [
         {
@@ -118,11 +118,14 @@
           "required": true,
           "validations": [
             {
-              "type": "length",
-              "params": {
-                "min": 3,
-                "max": 50
-              }
+              "type": "mdms",
+              "params": [
+                {
+                  "moduleName": "EstatePropertyService",
+                  "masterName": "legaHeirRelationShipWithDeceased",
+                  "filter": "legaHeirRelationShipWithDeceased..code"
+                }
+              ]
             }
           ]
         },

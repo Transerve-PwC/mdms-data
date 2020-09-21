@@ -24,7 +24,7 @@
         },
         {
           "path": "company",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "object"
@@ -33,7 +33,7 @@
         },
         {
           "path": "company.name",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -46,7 +46,7 @@
         },
         {
           "path": "company.address",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -59,7 +59,7 @@
         },
         {
           "path": "company.registrationNumber",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -71,14 +71,15 @@
           ]
         },
         {
-          "path": "company.type",// enum from fe
-          "required": true,
+          "path": "company.type",
+          "required": false,
           "validations": [
             {
-              "type": "length",
+              "type": "mdms",
               "params": {
-                "min": 5,
-                "max": 50
+                "moduleName": "EstatePropertyService",
+                "masterName": "companyDetails",
+                "filter": "companyDetails..code"
               }
             }
           ]

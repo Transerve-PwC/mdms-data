@@ -23,91 +23,6 @@
           ]
         },
         {
-          "path": "nocDetails",
-          "required": true,
-          "validations": [
-            {
-              "type": "object"
-            }
-          ]
-        },
-        {
-          "path": "nocDetails.favourOf",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
-          "path": "nocDetails.fatherOrHusbandName",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
-          "path": "nocDetails.relation",
-          "required": true,
-          "validations": [
-            {
-              "type": "enum",
-              "params": {
-                "values": ["FATHER", "HUSBAND"]
-              }
-            }
-          ]
-        },
-        {
-          "path": "nocDetails.address",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
-          "path": "nocDetails.mobileNo",
-          "required": false,
-          "validations": [
-            {
-              "type": "mobile"
-            }
-          ]
-        },
-        {
-          "path": "nocDetails.percentageOfShareTransferred",
-          "required": true,
-          "validations": [
-            {
-              "type": "numeric"
-            },
-            {
-              "type": "minmax",
-              "params": {
-                "min": 0,
-                "max": 100
-              }
-            }
-          ]
-        },
-        {
           "path": "documentsReceivedDate",
           "required": false,
           "validations": [
@@ -230,4 +145,3 @@
     }
   ]
 }
-// Confirm the NOC details and close it.

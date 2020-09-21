@@ -9,9 +9,43 @@
           "required": true,
           "validations": [
             {
-              "type": "enum",
+              "type": "mdms",
               "params": {
-                "values": ["FAMILY_SETTLEMENT", "COURT_DECREE"]
+                "moduleName": "EstatePropertyService",
+                "masterName": "familySettlementModeOfTransfer",
+                "filter": "familySettlementModeOfTransfer..code"
+              }
+            }
+          ]
+        },
+        {
+          "path": "decreeDate",
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -40
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "path": "courtDetails",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 250
               }
             }
           ]
@@ -283,4 +317,4 @@
     }
   ]
 }
-// Confirm the "Settelment / Decree details  Not captured anywhere in Property Master" details and close it.
+

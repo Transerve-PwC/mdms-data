@@ -164,19 +164,6 @@
           ]
         },
         {
-          "path": "transferee.relationWithDeceased",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 3,
-                "max": 50
-              }
-            }
-          ]
-        },
-        {
           "path": "transferee.address",
           "required": false,
           "validations": [

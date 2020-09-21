@@ -27,9 +27,11 @@
           "required": true,
           "validations": [
             {
-              "type": "enum",
+              "type": "mdms",
               "params": {
-                "values": ["GENERAL_PURPOSE", "AWHO"]
+                "moduleName": "EstatePropertyService",
+                "masterName": "noDueCertificteReason",
+                "filter": "noDueCertificteReason..code"
               }
             }
           ]
@@ -157,4 +159,3 @@
     }
   ]
 }
-//Confirm the reason for NDC field
