@@ -21987,6 +21987,17 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Budgeting.verifyBudgetSO"
+    },
+	{
+      "id": 5056,
+      "name": "AuctionReadFromExcelAndSaveData",
+      "url": "/est-services/v1/excel/read",
+      "displayName": "Auction read from excel and save data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Excel-services",
+      "code": "null",
+      "path": "AuctionReadFromExcelAndSaveData"
     }
   ]
 }
