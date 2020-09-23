@@ -1,7 +1,7 @@
 {
     "tenantId": "ch",
     "moduleName": "EstatePropertyService",
-    "ApplicationTypes": [
+    "applicationTypes": [
         {
             "name": "Ownership Transfer",
             "code": "EST_OWNERSHIP_TRANSFER",
@@ -53,13 +53,13 @@
                 {
                     "name": "No Objection Certificate for Transfer of Lease Rights by way of Sale/Gift/Family Transfer Deed/Exchange Deed",
                     "code": "EST_NO_OBJECTION_CERTIFICATE",
-                    "type": "EstateBranch_OtherCitizen_NOC",
+                    "type": "EstateBranch_OtherCitizenService_NOC",
                     "active": true
                 },
                 {
                     "name": "No Dues Certificate",
                     "code": "EST_NO_DUES_CERTIFICATE",
-                    "type": "EstateBranch_OtherCitizen_NDC",
+                    "type": "EstateBranch_OtherCitizenService_NDC",
                     "active": true
                 }
             ]
@@ -72,13 +72,13 @@
                 {
                     "name": "Conversion of Property from residential to Commercial (SCF to SCO)",
                     "code": "EST_CONVERSION_OF_PROPERTY_RES_TO_COMM",
-                    "type": "EstateBranch_OtherCitizen_ScfToSco",
+                    "type": "EstateBranch_OtherCitizenService_ScfToSco",
                     "active": true
                 },
                 {
                     "name": "Conversion from Leasehold to Freehold Property",
                     "code": "EST_CONVERSION_FROM_LEASEHOLD_TO_FREEHOLD",
-                    "type": "EstateBranch_OtherCitizen_LeaseholdToFreehold",
+                    "type": "EstateBranch_OtherCitizenService_LeaseholdToFreehold",
                     "active": true
                 }
             ]
@@ -86,25 +86,25 @@
         {
             "name": "Duplicate Allotment Letter/Possession Letter",
             "code": "EST_DUPLICATE_ALLOTMENT_POSSESSION_LETTER",
-            "type": "EstateBranch_OtherCitizen_DuplicateCopy",
+            "type": "EstateBranch_OtherCitizenService_DuplicateCopy",
             "active": true
         },
         {
             "name": "Execution of Lease Deed/Deed of Conveyance",
             "code": "EST_EXECUTION_OF_LEASE_DEED",
-            "type": "EstateBranch_OtherCitizen_LeaseDeed",
+            "type": "EstateBranch_OtherCitizenService_LeaseDeed",
             "active": true
         },
         {
             "name": "Permission to Mortgage",
             "code": "EST_PERMISSION_TO_MORTGAGE",
-            "type": "EstateBranch_OtherCitizen_Mortgage",
+            "type": "EstateBranch_OtherCitizenService_Mortgage",
             "active": true
         },
         {
             "name": "Change of Trade",
             "code": "EST_CHANGE_OF_TRADE",
-            "type": "EstateBranch_OtherCitizen_ChangeInTrade",
+            "type": "EstateBranch_OtherCitizenService_ChangeInTrade",
             "active": true
         }
     ]
