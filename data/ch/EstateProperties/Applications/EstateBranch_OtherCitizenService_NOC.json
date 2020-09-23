@@ -23,6 +23,99 @@
           ]
         },
         {
+          "path": "transferee",
+          "required": false,
+          "validations": [
+            {
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "transferee.legalHeirOrbeneficiary",
+          "required": true,
+          "validations": [
+            {
+              "type": "enum",
+              "params": {
+                "values": ["LEGALHEIR", "BENEFICIARY"]
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.id",
+          "required": false,
+          "validations": [
+            {
+              "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "transferee.name",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.age",
+          "required": true,
+          "validations": [
+            {
+              "type": "numeric"
+            },
+            {
+              "type": "minmax",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.relation",
+          "required": true,
+          "validations": [
+            {
+              "type": "enum",
+              "params": {
+                "values": ["FATHER", "HUSBAND"]
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.address",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.mobileNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "mobile"
+            }
+          ]
+        },
+        {
           "path": "documentsReceivedDate",
           "required": false,
           "validations": [
