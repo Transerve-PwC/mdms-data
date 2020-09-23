@@ -21998,6 +21998,29 @@
       "serviceCode": "Excel-services",
       "code": "null",
       "path": "AuctionReadFromExcelAndSaveData"
+    },
+	{
+      "id": 5057,
+      "name": "AuctionReadFromExcelAndSaveDataWithPropertyId",
+      "url": "/est-services/auctions/_create",
+      "displayName": "Auction Data read from excel and save data with Property FK (File number)",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Auction-services",
+      "code": "null",
+      "path": "AuctionReadFromExcelAndSaveDataWithPropertyId"
+    },
+	,
+	{
+      "id": 5058,
+      "name": "AuctionDataFetchByFileIdFromProperty",
+      "url": "/est-services/auctions/_search",
+      "displayName": "Auction Data fetch from data base, based on Property table(file_number)",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Auction-services",
+      "code": "null",
+      "path": "AuctionDataFetchByFileIdFromProperty"
     }
   ]
 }
