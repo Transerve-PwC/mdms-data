@@ -1,38 +1,11 @@
 {
   "tenantId": "ch",
   "moduleName": "EstatePropertyService",
-  "EstateBranch_OtherCitizen_ChangeInTrade": [
+  "EstateBranch_OtherCitizenService_LeaseholdToFreehold": [
     {
       "fields": [
         {
-          "path": "changeInTrade", // this need to be an enum and to br confirmed by fe
-          "required": true,
-          "validations": [
-            {
-              "type": "mdms",
-              "params": {
-                "moduleName": "EstatePropertyService",
-                "masterName": "modeOfTransfer",
-                "filter": "modeOfTransfer..code"
-              }
-            }
-          ]
-        },
-        {
-          "path": "currentTrade",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
-          "path": "owner",
+          "path": "transferor",
           "required": true,
           "validations": [
             {
@@ -41,7 +14,7 @@
           ]
         },
         {
-          "path": "owner.id",
+          "path": "transferor.id",
           "required": true,
           "validations": [
             {

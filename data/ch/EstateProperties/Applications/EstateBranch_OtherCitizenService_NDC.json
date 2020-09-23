@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstatePropertyService",
-  "EstateBranch_OtherCitizen_NOC": [
+  "EstateBranch_OtherCitizenService_NDC": [
     {
       "fields": [
         {
@@ -19,6 +19,20 @@
           "validations": [
             {
               "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "reasonForNdc",
+          "required": true,
+          "validations": [
+            {
+              "type": "mdms",
+              "params": {
+                "moduleName": "EstatePropertyService",
+                "masterName": "noDueCertificteReason",
+                "filter": "noDueCertificteReason..code"
+              }
             }
           ]
         },
