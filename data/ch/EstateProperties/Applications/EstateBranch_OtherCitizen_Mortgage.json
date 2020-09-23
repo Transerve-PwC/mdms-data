@@ -5,15 +5,15 @@
     {
       "fields": [
         {
-          "path": "typeOfMortgage", // this need to be an enum and to br confirmed by fe
+          "path": "mortgageType",
           "required": true,
           "validations": [
             {
               "type": "mdms",
               "params": {
                 "moduleName": "EstatePropertyService",
-                "masterName": "mortgage",
-                "filter": "mortgage..code"
+                "masterName": "permissionToMortagage",
+                "filter": "permissionToMortagage..code"
               }
             }
           ]
@@ -37,16 +37,7 @@
           ]
         },
         {
-          "path": "loan",
-          "required": true,
-          "validations": [
-            {
-              "type": "object"
-            }
-          ]
-        },
-        {
-          "path": "loan.nameOfBank",
+          "path": "bankName",
           "required": true,
           "validations": [
             {
@@ -59,7 +50,7 @@
           ]
         },
         {
-          "path": "loan.purpose",
+          "path": "reasonForMortgage",
           "required": true,
           "validations": [
             {
@@ -72,7 +63,7 @@
           ]
         },
         {
-          "path": "loan.amount",
+          "path": "loanAmount",
           "required": true,
           "validations": [
             {
