@@ -22021,6 +22021,17 @@
       "serviceCode": "Auction-services",
       "code": "null",
       "path": "AuctionDataFetchByFileIdFromProperty"
+    },
+	{
+      "id": 5059,
+      "name": "AuctionUpdateDataWithAuctionId",
+      "url": "/est-services/auctions/_update",
+      "displayName": "Auction update data with Auction PK (ID)",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Auction-services",
+      "code": "null",
+      "path": "AuctionUpdateDataWithAuctionId"
     }
   ]
 }
