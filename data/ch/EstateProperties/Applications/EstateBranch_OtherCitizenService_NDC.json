@@ -1,25 +1,11 @@
 {
   "tenantId": "ch",
   "moduleName": "EstatePropertyService",
-  "EstateBranch_OtherCitizen_Mortgage": [
+  "EstateBranch_OtherCitizenService_NDC": [
     {
       "fields": [
         {
-          "path": "typeOfMortgage", // this need to be an enum and to br confirmed by fe
-          "required": true,
-          "validations": [
-            {
-              "type": "mdms",
-              "params": {
-                "moduleName": "EstatePropertyService",
-                "masterName": "modeOfTransfer",
-                "filter": "modeOfTransfer..code"
-              }
-            }
-          ]
-        },
-        {
-          "path": "owner",
+          "path": "transferor",
           "required": true,
           "validations": [
             {
@@ -28,7 +14,7 @@
           ]
         },
         {
-          "path": "owner.id",
+          "path": "transferor.id",
           "required": true,
           "validations": [
             {
@@ -37,46 +23,16 @@
           ]
         },
         {
-          "path": "loan",
+          "path": "reasonForNdc",
           "required": true,
           "validations": [
             {
-              "type": "object"
-            }
-          ]
-        },
-        {
-          "path": "loan.nameOfBank",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
+              "type": "mdms",
               "params": {
-                "min": 5,
-                "max": 150
+                "moduleName": "EstatePropertyService",
+                "masterName": "noDueCertificteReason",
+                "filter": "noDueCertificteReason..code"
               }
-            }
-          ]
-        },
-        {
-          "path": "loan.purpose",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
-          "path": "loan.amount",
-          "required": true,
-          "validations": [
-            {
-              "type": "numeric"
             }
           ]
         },

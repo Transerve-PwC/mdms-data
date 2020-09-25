@@ -383,6 +383,16 @@
       "isRequired": false
     },
     {
+      "category": "FEE",
+      "service": "EB-OT-SaleDeed",
+      "name": "EB-OT-SaleDeed",
+      "code": "EB-OT-SaleDeed_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
       "category": "TAX",
       "service": "TL",
       "name": "tl roundoff",
@@ -2863,15 +2873,15 @@
 			"isRequired": false
 		},
 		{
-			"category": "TAX",
+			"category": "CHARGES",
 			"service": "OPMS.PETNOC",
 			"name": "Pet NOC Tax",
-			"code": "PETNOC_TAX",
+			"code": "PETNOC_POSTAL_CHARGES",
 			"isDebit": false,
 			"isActualDemand": true,
 			"order": "2",
 			"isRequired": false,
-			"taxAmount": "0"
+			"taxAmount": "25"
 		},
 		{
 			"category": "FEE",

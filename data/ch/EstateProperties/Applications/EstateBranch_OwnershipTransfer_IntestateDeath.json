@@ -1,25 +1,79 @@
 {
   "tenantId": "ch",
   "moduleName": "EstatePropertyService",
-  "EstateBranch_OtherCitizen_ChangeInTrade": [
+  "EstateBranch_OwnershipTransfer_IntestateDeath": [
     {
       "fields": [
         {
-          "path": "changeInTrade", // this need to be an enum and to br confirmed by fe
-          "required": true,
+          "path": "bookNumber",
+          "required": false,
           "validations": [
             {
-              "type": "mdms",
+              "type": "length",
               "params": {
-                "moduleName": "EstatePropertyService",
-                "masterName": "modeOfTransfer",
-                "filter": "modeOfTransfer..code"
+                "min": 0,
+                "max": 100
               }
             }
           ]
         },
         {
-          "path": "currentTrade",
+          "path": "transferor",
+          "required": true,
+          "validations": [
+            {
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "transferor.id",
+          "required": true,
+          "validations": [
+            {
+              "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "transferor.dateOfDeath",
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -40
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee",
+          "required": true,
+          "validations": [
+            {
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "transferee.id",
+          "required": false,
+          "validations": [
+            {
+              "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "transferee.name",
           "required": true,
           "validations": [
             {
@@ -32,20 +86,97 @@
           ]
         },
         {
-          "path": "owner",
+          "path": "transferee.age",
           "required": true,
           "validations": [
             {
-              "type": "object"
+              "type": "numeric"
+            },
+            {
+              "type": "minmax",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
             }
           ]
         },
         {
-          "path": "owner.id",
+          "path": "transferee.fatherOrHusbandName",
           "required": true,
           "validations": [
             {
-              "type": "owner"
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.relation",
+          "required": true,
+          "validations": [
+            {
+              "type": "enum",
+              "params": {
+                "values": ["FATHER", "HUSBAND"]
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.relationWithDeceased",
+          "required": true,
+          "validations": [
+            {
+              "type": "mdms",
+              "params": [
+                {
+                  "moduleName": "EstatePropertyService",
+                  "masterName": "legaHeirRelationShipWithDeceased",
+                  "filter": "legaHeirRelationShipWithDeceased..code"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "transferee.address",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.mobileNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "mobile"
+            }
+          ]
+        },
+        {
+          "path": "transferee.percentageOfShareTransferred",
+          "required": true,
+          "validations": [
+            {
+              "type": "numeric"
+            },
+            {
+              "type": "minmax",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
             }
           ]
         },

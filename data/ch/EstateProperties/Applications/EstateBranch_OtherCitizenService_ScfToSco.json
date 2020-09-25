@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstatePropertyService",
-  "EstateBranch_OtherCitizen_NDC": [
+  "EstateBranch_OtherCitizenService_ScfToSco": [
     {
       "fields": [
         {
@@ -23,13 +23,63 @@
           ]
         },
         {
-          "path": "reasonForNdc",
-          "required": true,
+          "path": "company",
+          "required": false,
           "validations": [
             {
-              "type": "enum",
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "company.name",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
               "params": {
-                "values": ["GENERAL_PURPOSE", "AWHO"]
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "company.address",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "company.registrationNumber",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 50
+              }
+            }
+          ]
+        },
+        {
+          "path": "company.type",
+          "required": false,
+          "validations": [
+            {
+              "type": "mdms",
+              "params": {
+                "moduleName": "EstatePropertyService",
+                "masterName": "companyDetails",
+                "filter": "companyDetails..code"
               }
             }
           ]
@@ -157,4 +207,3 @@
     }
   ]
 }
-//Confirm the reason for NDC field
