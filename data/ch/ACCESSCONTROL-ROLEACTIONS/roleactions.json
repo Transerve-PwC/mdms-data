@@ -16400,6 +16400,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1687,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_APPROVER",
 			"actionid": 1688,
 			"actioncode": "",
@@ -18495,6 +18501,12 @@
 		},
 		{
 			"rolecode": "TL_FIELD_INSPECTOR",
+			"actionid": 1778,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1778,
 			"actioncode": "",
 			"tenantId": "ch"
