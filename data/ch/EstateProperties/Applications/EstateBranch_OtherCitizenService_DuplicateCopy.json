@@ -1,7 +1,7 @@
 {
     "tenantId": "ch",
     "moduleName": "EstatePropertyService",
-    "EstateBranch_OtherCitizen_DuplicateCopy": [
+    "EstateBranch_OtherCitizenService_DuplicateCopy": [
       {
         "fields": [
           {
@@ -19,6 +19,20 @@
             "validations": [
               {
                 "type": "owner"
+              }
+            ]
+          },
+          {
+            "path": "typeOfLetter",
+            "required": true,
+            "validations": [
+              {
+                "type": "mdms",
+                "params": {
+                  "moduleName": "EstatePropertyService",
+                  "masterName": "typeOfLetter",
+                  "filter": "typeOfLetter..code"
+                }
               }
             ]
           },
