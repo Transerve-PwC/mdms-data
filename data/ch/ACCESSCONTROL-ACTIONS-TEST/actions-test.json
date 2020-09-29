@@ -16583,7 +16583,7 @@
     {
       "id": 4086,
       "name": "DueAmount",
-      "url": "/rp-services/property/_dueamount",
+      "url": "/rp-services/property/_update_dues",
       "displayName": "fetching due amount details API",
       "orderNumber": 0,
       "parentModule": "",
