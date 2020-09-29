@@ -5,7 +5,7 @@
     {
       "fields": [
         {
-          "path": "typeOfNotice", // add mdms as per give fe dropdown file
+          "path": "typeOfNotice",
           "required": true,
           "validations": [
             {
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "path": "violationDetails", // confirm wheather to keep this field or remove as per screen params
+          "path": "violationDetails",
           "required": true,
           "validations": [
             {
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "path": "violationDate", // confirm wheather to keep this field or remove as per screen params
+          "path": "violationDate",
           "required": false,
           "validations": [
             {
@@ -88,20 +88,17 @@
           ]
         },
         {
-          "path": "timeOfHearing", //check the validation for this as the field requires time as to be captured
+          "path": "timeOfHearing",
           "required": true,
           "validations": [
             {
-              "type": "date-range",
+              "type": "numeric"
+            },
+            {
+              "type": "minmax",
               "params": {
-                "start": {
-                  "unit": "second",
-                  "value": 0
-                },
-                "end": {
-                  "unit": "year",
-                  "value": 10
-                }
+                "min": 0,
+                "max": 23
               }
             }
           ]
