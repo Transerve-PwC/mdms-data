@@ -40095,6 +40095,24 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_CA",
+			"actionid": 3027,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_CA",
+			"actionid": 3028,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_CA",
+			"actionid": 3029,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EMPLOYEE",
 			"actionid": "4085",
 			"actioncode": "",
