@@ -15453,18 +15453,6 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1686,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
       "rolecode": "CITIZEN",
       "actionid": 1685,
       "actioncode": "",
@@ -15563,36 +15551,6 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 1681,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1682,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1683,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1684,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1684,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1688,
       "actioncode": "",
       "tenantId": "ch"
     },
@@ -16396,12 +16354,6 @@
     },
     {
       "rolecode": "TL_APPROVER",
-      "actionid": 1684,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_CEMP",
       "actionid": 1684,
       "actioncode": "",
       "tenantId": "ch"
@@ -17262,42 +17214,6 @@
     {
       "rolecode": "EMPLOYEE",
       "actionid": 1714,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1715,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1716,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1717,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1718,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1719,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1720,
       "actioncode": "",
       "tenantId": "ch"
     },
@@ -19534,25 +19450,7 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 1874,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
       "rolecode": "CITIZEN",
-      "actionid": 1875,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1875,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_APPROVER",
       "actionid": 1875,
       "actioncode": "",
       "tenantId": "ch"
@@ -19560,18 +19458,6 @@
     {
       "rolecode": "TL_CEMP",
       "actionid": 1875,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1876,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_APPROVER",
-      "actionid": 1876,
       "actioncode": "",
       "tenantId": "ch"
     },
@@ -19584,18 +19470,6 @@
     {
       "rolecode": "CITIZEN",
       "actionid": 1876,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1877,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_APPROVER",
-      "actionid": 1877,
       "actioncode": "",
       "tenantId": "ch"
     },
@@ -19625,18 +19499,6 @@
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 1878,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1878,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_APPROVER",
       "actionid": 1878,
       "actioncode": "",
       "tenantId": "ch"
@@ -19781,78 +19643,6 @@
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 1902,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1902,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1903,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1903,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1904,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1904,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1905,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1905,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1906,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1906,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1907,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1907,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 1908,
       "actioncode": "",
       "tenantId": "ch"
@@ -19896,78 +19686,6 @@
     {
       "rolecode": "EMPLOYEE",
       "actionid": 1911,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1912,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1912,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1913,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1913,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1914,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1914,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1915,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1915,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1916,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1916,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1917,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1917,
       "actioncode": "",
       "tenantId": "ch"
     },
