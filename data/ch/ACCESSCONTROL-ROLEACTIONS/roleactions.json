@@ -40606,6 +40606,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ES_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EMPLOYEE",
 			"actionid": 30000,
 			"actioncode": "",
