@@ -66,17 +66,20 @@
           ]
         },
         {
-          "path": "transferee.age",
+          "path": "transferee.dob",
           "required": true,
           "validations": [
             {
-              "type": "numeric"
-            },
-            {
-              "type": "minmax",
+              "type": "date-range",
               "params": {
-                "min": 0,
-                "max": 100
+                "start": {
+                  "unit": "year",
+                  "value": -100
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
               }
             }
           ]
