@@ -26,7 +26,7 @@
                     "active": true
                 },
                 {
-                    "name": "Transfer of Ownership on the basis of Registered Will",
+                    "name": "Transfer of Ownership on the basis of Intestate Death",
                     "code": "ES_TRANSFER_OF_OWNERSHIP_INTESTATE_DEATH",
                     "type": "EstateBranch_OwnershipTransfer_IntestateDeath",
                     "active": true
@@ -72,7 +72,7 @@
                 {
                     "name": "Conversion of Property from residential to Commercial (SCF to SCO)",
                     "code": "ES_CONVERSION_OF_PROPERTY_RES_TO_COMM",
-                    "type": "EstateBranch_OtherCitizenService_ScfToSco",
+                    "type": "EstateBranch_OtherCitizenService_ResidentailToCommercial",
                     "active": true
                 },
                 {
