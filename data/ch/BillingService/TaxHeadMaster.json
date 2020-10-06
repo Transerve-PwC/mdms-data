@@ -335,7 +335,7 @@
     {
       "category": "PRINCIPAL",
       "service": "RentedProperties.Rent",
-      "name": "Rented Properties Principal Rent Amount",
+      "name": "Principal Rent Amount",
       "code": "RentedProperties.Rent_PRINCIPAL",
       "isDebit": false,
       "isActualDemand": true,
@@ -345,7 +345,7 @@
     {
       "category": "ADVANCE_COLLECTION",
       "service": "RentedProperties.Rent",
-      "name": "Rented Properties Principal Rent Amount",
+      "name": "Advance Rent Amount",
       "code": "RentedProperties.Rent_ADVANCE_COLLECTION",
       "isDebit": false,
       "isActualDemand": true,
@@ -355,7 +355,7 @@
     {
       "category": "INTEREST",
       "service": "RentedProperties.Rent",
-      "name": "Rented Properties Principal Rent Amount",
+      "name": "Interest rent amount",
       "code": "RentedProperties.Rent_INTEREST",
       "isDebit": false,
       "isActualDemand": true,
