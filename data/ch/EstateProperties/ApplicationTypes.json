@@ -72,7 +72,7 @@
                 {
                     "name": "Conversion of Property from residential to Commercial (SCF to SCO)",
                     "code": "ES_CONVERSION_OF_PROPERTY_RES_TO_COMM",
-                    "type": "EstateBranch_OtherCitizenService_ResidentailToCommercial",
+                    "type": "EstateBranch_OtherCitizenService_ScfToSco",
                     "active": true
                 },
                 {
