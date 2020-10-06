@@ -313,16 +313,6 @@
       "isRequired": false
     },
     {
-      "category": "TAX",
-      "service": "RentedProperties.OwnershipTransfer",
-      "name": "Ownership Transfer Roundoff",
-      "code": "RentedProperties.OwnershipTransfer_ROUNDOFF",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "3",
-      "isRequired": false
-    },
-    {
       "category": "FEE",
       "service": "RentedProperties.DuplicateAllotmentLetter",
       "name": "Duplicate Copy Application Charges",
@@ -340,16 +330,6 @@
       "isDebit": false,
       "isActualDemand": true,
       "order": "1",
-      "isRequired": false
-    },
-    {
-      "category": "TAX",
-      "service": "RentedProperties.DuplicateAllotmentLetter",
-      "name": "Duplicate Copy Roundoff",
-      "code": "RentedProperties.DuplicateAllotmentLetter_ROUNDOFF",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "3",
       "isRequired": false
     },
     {
