@@ -336,7 +336,7 @@
       "category": "PRINCIPAL",
       "service": "RentedProperties.Rent",
       "name": "Principal Rent Amount",
-      "code": "RentedProperties.Rent_PRINCIPAL",
+      "code": "RentedProperties.Rent_COLONY.MILK_PRINCIPAL",
       "isDebit": false,
       "isActualDemand": true,
       "order": "1",
@@ -346,7 +346,7 @@
       "category": "ADVANCE_COLLECTION",
       "service": "RentedProperties.Rent",
       "name": "Advance Rent Amount",
-      "code": "RentedProperties.Rent_ADVANCE_COLLECTION",
+      "code": "RentedProperties.Rent_COLONY.MILK_ADVANCE_COLLECTION",
       "isDebit": false,
       "isActualDemand": true,
       "order": "3",
@@ -356,12 +356,103 @@
       "category": "INTEREST",
       "service": "RentedProperties.Rent",
       "name": "Interest rent amount",
-      "code": "RentedProperties.Rent_INTEREST",
+      "code": "RentedProperties.Rent_COLONY.MILK_INTEREST",
       "isDebit": false,
       "isActualDemand": true,
       "order": "2",
       "isRequired": false
     },
+    {
+      "category": "PRINCIPAL",
+      "service": "RentedProperties.Rent",
+      "name": "Principal Rent Amount",
+      "code": "RentedProperties.Rent_COLONY.KUMHAR_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "RentedProperties.Rent",
+      "name": "Advance Rent Amount",
+      "code": "RentedProperties.Rent_COLONY.KUMHAR_ADVANCE_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
+      "category": "INTEREST",
+      "service": "RentedProperties.Rent",
+      "name": "Interest rent amount",
+      "code": "RentedProperties.Rent_COLONY.KUMHAR_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PRINCIPAL",
+      "service": "RentedProperties.Rent",
+      "name": "Principal Rent Amount",
+      "code": "RentedProperties.Rent_COLONY.SECTOR_52_53_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "RentedProperties.Rent",
+      "name": "Advance Rent Amount",
+      "code": "RentedProperties.Rent_COLONY.SECTOR_52_53_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
+      "category": "INTEREST",
+      "service": "RentedProperties.Rent",
+      "name": "Interest rent amount",
+      "code": "RentedProperties.Rent_COLONY.SECTOR_52_53_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PRINCIPAL",
+      "service": "RentedProperties.Rent",
+      "name": "Principal Rent Amount",
+      "code": "RentedProperties.Rent_COLONY.VIKAR_NAGAR_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "RentedProperties.Rent",
+      "name": "Advance Rent Amount",
+      "code": "RentedProperties.Rent_COLONY.VIKAR_NAGAR_ADVANCE_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
+      "category": "INTEREST",
+      "service": "RentedProperties.Rent",
+      "name": "Interest rent amount",
+      "code": "RentedProperties.Rent_COLONY.VIKAR_NAGAR_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+   
     {
       "category": "TAX",
       "service": "TL",
