@@ -70,8 +70,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties.Ownership Transfer",
-			"code": "RentedProperties.OwnershipTransfer",
+			"businessService": "Rented Properties (Colony Milk).Ownership Transfer",
+			"code": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -81,8 +81,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties.Rent",
-			"code": "RentedProperties.Rent",
+			"businessService": "Rented Properties (Colony Kumhar).Ownership Transfer",
+			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -92,8 +92,107 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties.Duplicate Allotment Letter",
-			"code": "RentedProperties.DuplicateAllotmentLetter",
+			"businessService": "Rented Properties (Colony Sector 52-53).Ownership Transfer",
+			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Vikas Nagar).Ownership Transfer",
+			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Milk).Rent",
+			"code": "RENTED_PROPERTIES_COLONY_MILK.RENT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Kumhar).Rent",
+			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Sector 52-53).Rent",
+			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Vikas Nagar).Rent",
+			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Milk).Duplicate Allotment Letter",
+			"code": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Kumhar).Duplicate Allotment Letter",
+			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Sector 52-53).Duplicate Allotment Letter",
+			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Colony Vikas Nagar).Duplicate Allotment Letter",
+			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
