@@ -71,7 +71,7 @@
 			"isVoucherCreationEnabled": true
     },
     {
-			"businessService": "Rented Properties (Colony Milk).Ownership Transfer",
+			"businessService": "Rented Properties (Milk Colony).Ownership Transfer",
 			"code": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -82,7 +82,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Kumhar).Ownership Transfer",
+			"businessService": "Rented Properties (Kumhar Colony).Ownership Transfer",
 			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -93,7 +93,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Sector 52-53).Ownership Transfer",
+			"businessService": "Rented Properties (Sector 52-53).Ownership Transfer",
 			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -104,7 +104,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Vikas Nagar).Ownership Transfer",
+			"businessService": "Rented Properties (Vikas Nagar).Ownership Transfer",
 			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -115,7 +115,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Milk).Rent",
+			"businessService": "Rented Properties (Milk Colony).Rent",
 			"code": "RENTED_PROPERTIES_COLONY_MILK.RENT",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -126,7 +126,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Kumhar).Rent",
+			"businessService": "Rented Properties (Kumhar Colony).Rent",
 			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -137,7 +137,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Sector 52-53).Rent",
+			"businessService": "Rented Properties (Sector 52-53).Rent",
 			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -148,7 +148,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Vikas Nagar).Rent",
+			"businessService": "Rented Properties (Vikas Nagar).Rent",
 			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -159,7 +159,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Milk).Duplicate Allotment Letter",
+			"businessService": "Rented Properties (Milk Colony).Duplicate Allotment Letter",
 			"code": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -170,7 +170,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Kumhar).Duplicate Allotment Letter",
+			"businessService": "Rented Properties (Kumhar Colony).Duplicate Allotment Letter",
 			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -181,7 +181,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Sector 52-53).Duplicate Allotment Letter",
+			"businessService": "Rented Properties (Sector 52-53).Duplicate Allotment Letter",
 			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -192,7 +192,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties (Colony Vikas Nagar).Duplicate Allotment Letter",
+			"businessService": "Rented Properties (Vikas Nagar).Duplicate Allotment Letter",
 			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
 			"collectionModesNotAllowed": [
 				"DD"
