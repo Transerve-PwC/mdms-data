@@ -22322,6 +22322,19 @@
 		"navigationURL": "egov-nulm/searchSuh",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
-	}
+	},
+	{
+      "id": 30007,
+      "name": "CalculationOfPayments",
+      "url": "/est-services/estate/_calculation",
+      "displayName": "Calculation Of Payment API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CalculationOfPaymentApi",
+      "code": "null",
+      "path": "CalculationOfPaymentApi"
+	}  
+    
   ]
 }
