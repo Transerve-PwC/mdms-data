@@ -51871,6 +51871,12 @@
 			"actionid": 1766,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30007,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }
