@@ -222,7 +222,7 @@
           "required": true,
           "validations": [
             {
-              "type": "object"
+              "type": "array"
             }
           ]
         },

@@ -136,6 +136,19 @@
           ]
         },
         {
+          "path": "transferee.fatherOrHusbandName",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
           "path": "transferee.relation",
           "required": true,
           "validations": [
@@ -190,7 +203,7 @@
           "required": true,
           "validations": [
             {
-              "type": "object"
+              "type": "array"
             }
           ]
         },
