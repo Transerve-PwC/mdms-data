@@ -12,8 +12,8 @@
               "type": "mdms",
               "params": {
                 "moduleName": "EstatePropertyService",
-                "masterName": "modeOfTransfer",
-                "filter": "modeOfTransfer..code"
+                "masterName": "tradeOptedForChange",
+                "filter": "tradeOptedForChange..code"
               }
             }
           ]

@@ -32,18 +32,6 @@
           ]
         },
         {
-          "path": "transferee.legalHeirOrbeneficiary",
-          "required": true,
-          "validations": [
-            {
-              "type": "enum",
-              "params": {
-                "values": ["LEGALHEIR", "BENEFICIARY"]
-              }
-            }
-          ]
-        },
-        {
           "path": "transferee.id",
           "required": false,
           "validations": [
@@ -80,6 +68,19 @@
                   "unit": "second",
                   "value": 0
                 }
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.fatherOrHusbandName",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
               }
             }
           ]

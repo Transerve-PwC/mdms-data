@@ -218,11 +218,11 @@
           ]
         },
         {
-          "path": "witness",
+          "path": "witness.*",
           "required": true,
           "validations": [
             {
-              "type": "object"
+              "type": "array"
             }
           ]
         },

@@ -138,6 +138,25 @@
           ]
         },
         {
+          "path": "transferee.dob",
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -100
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
           "path": "transferee.address",
           "required": true,
           "validations": [
