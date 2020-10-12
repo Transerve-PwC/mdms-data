@@ -40768,6 +40768,84 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ES_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30000,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30001,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 30001,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30002,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30003,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 30003,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30004,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 30004,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30005,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 30005,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30006,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 5056,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SASO",
 			"actionid": 4302,
 			"actioncode": "",
@@ -51669,24 +51747,6 @@
 			"tenantId": "ch"
 			},
 			{
-			"rolecode": "CITIZEN",
-			"actionid": 5057,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
-			"rolecode": "CITIZEN",
-			"actionid": 5058,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
-			"rolecode": "CITIZEN",
-			"actionid": 5059,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
 				"rolecode": "WORKS_WORK_AGREEMENT",
 				"actionid": 5045,
 				"actioncode": "",
@@ -51783,30 +51843,6 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
-			"actionid": 6006,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "NULM_ADMIN",
-			"actionid": 6006,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CITIZEN",
-			"actionid": 6007,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CITIZEN",
-			"actionid": 6008,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
 			"rolecode": "OSBM_APPROVER",
 			"actionid": 1766,
 			"actioncode": "",
@@ -51833,6 +51869,12 @@
 		{
 			"rolecode": "ADMIN_APPROVER",
 			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30007,
 			"actioncode": "",
 			"tenantId": "ch"
 		}
