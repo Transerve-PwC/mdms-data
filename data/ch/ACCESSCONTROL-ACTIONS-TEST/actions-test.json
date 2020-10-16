@@ -13331,6 +13331,124 @@
       "tenantId": "ch",
       "url": "card"
     },
+    { 
+      "displayName": "Estate Properties",
+      "enabled": true,
+      "id": 21811,
+      "leftIcon": "action:announcement",
+      "name": "rainmaker-citizen-estate-properties",
+      "navigationURL": "estate/home",
+      "orderNumber": 2,
+      "tenantId": "ch",
+      "url": "card"
+    },
+    {
+      "id": 30000,
+      "name": "CreatePropertyMasterApi",
+      "url": "/est-services/property-master/_create",
+      "displayName": "Create Property Master api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CreatePropertyMasterApi",
+      "code": "null",
+      "path": "CreatePropertyMasterApi"
+    },
+    {
+      "id": 30001,
+      "name": "SearchPropertyMasterApi",
+      "url": "/est-services/property-master/_search",
+      "displayName": "Search Property Master api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "SearchPropertyMasterApi",
+      "code": "null",
+      "path": "SearchPropertyMasterApi"
+    },
+    {
+      "id": 30002,
+      "name": "UpdatePropertyMasterApi",
+      "url": "/est-services/property-master/_update",
+      "displayName": "Update Property Master api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "UpdatePropertyMasterApi",
+      "code": "null",
+      "path": "UpdatePropertyMasterApi"
+    },
+    {
+      "id": 30003,
+      "name": "CreateApplicationApi",
+      "url": "/est-services/application/_create",
+      "displayName": "Create Application api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CreateApplicationApi",
+      "code": "null",
+      "path": "CreateApplicationApi"
+    },
+      {
+      "id": 30004,
+      "name": "SearchApplicationApi",
+      "url": "/est-services/application/_search",
+      "displayName": "Search Application API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "SearchApplicationApi",
+      "code": "null",
+      "path": "SearchApplicationApi"
+    },
+      {
+      "id": 30005,
+      "name": "UpdateApplicationApi",
+      "url": "/est-services/application/_update",
+      "displayName": "Update Application API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "UpdateApplicationApi",
+      "code": "null",
+      "path": "UpdateApplicationApi"
+    },
+    {
+    "id": 30006,
+    "name": "AuctionParseApi",
+    "url": "/est-services/auctions/_parse",
+    "displayName": "Auction Parse API",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "AuctionParseApi",
+    "code": "null",
+    "path": "AuctionParseApi"
+  },
+	{
+      "id": 30007,
+      "name": "CalculationOfPayments",
+      "url": "/est-services/estate/_calculation",
+      "displayName": "Calculation Of Payment API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CalculationOfPaymentApi",
+      "code": "null",
+      "path": "CalculationOfPaymentApi"
+	},
+	{
+      "id": 30008,
+      "name": "AuctionReadFromExcelAndSaveData",
+      "url": "/est-services/v1/excel/read",
+      "displayName": "Auction read from excel and save data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "Excel-services",
+      "code": "null",
+      "path": "AuctionReadFromExcelAndSaveData"
+  },
     {
       "id": 30000,
       "name": "CreatePropertyMasterApi",
@@ -22290,7 +22408,7 @@
 	},
 	{
         "id": 6005,
-        "name": "rainmaker-common-egov-integration",
+        "name": "rainmaker-citizen-egov-integration",
 		"url": "card",
 		"displayName": "Prorperty Tax Search",
 		"orderNumber": 2,
@@ -22324,17 +22442,28 @@
 		"rightIcon": ""
 	},
 	{
-      "id": 30007,
-      "name": "CalculationOfPayments",
-      "url": "/est-services/estate/_calculation",
-      "displayName": "Calculation Of Payment API",
-      "orderNumber": 0,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "CalculationOfPaymentApi",
-      "code": "null",
-      "path": "CalculationOfPaymentApi"
-	}  
-    
+		"id": 6007,
+		"name": "savePTMapping",
+		"url": "/integration-services/pt-mapping/v1/_save",
+		"displayName": "Save PT Mapping",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6008,
+		"name": "getPTMapping",
+		"url": "/integration-services/pt-mapping/v1/_get",
+		"displayName": "Get PT Mapping",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	}
   ]
 }
