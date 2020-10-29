@@ -582,6 +582,7 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferee.type",
                   "path": "transferee.type",
+                  "required": true,
                   "dataSource": "typesOfOwner",
                   "visibility": "owners.length > 1 && purchasers.length > 0"
                 },
@@ -595,6 +596,7 @@
                   "dataValue": "purchasers",
                   "prefillValue": "selectedPurchaser ? selectedPurchaser.id : ''",
                   "visible": false,
+                  "required": true,
                   "visibility": "application.applicationDetails.transferee.type == 'Existing'"
                 },
                 {
@@ -630,7 +632,9 @@
                   "placeholder": "ES_LEGAL_HEIR_DOB_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
-                  "path": "transferee.dob"
+                  "path": "transferee.dob",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.dob : application.applicationDetails.transferee.dob "
                 },
                 {
                   "label": "ES_LEGAL_HEIR_ADDRESS_LABEL",

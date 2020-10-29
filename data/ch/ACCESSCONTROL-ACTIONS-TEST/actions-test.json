@@ -13332,24 +13332,13 @@
       "navigationURL": "report/rainmaker-common/CollectionRegister",
       "path": "Reports.Collection Register"
     },
-    { 
+    {
       "displayName": "RP Rented Properties",
       "enabled": true,
       "id": 21810,
       "leftIcon": "action:announcement",
       "name": "rainmaker-citizen-rented-properties",
       "navigationURL": "rented-properties/home",
-      "orderNumber": 2,
-      "tenantId": "ch",
-      "url": "card"
-    },
-    { 
-      "displayName": "Estate Properties",
-      "enabled": true,
-      "id": 21811,
-      "leftIcon": "action:announcement",
-      "name": "rainmaker-citizen-estate-properties",
-      "navigationURL": "estate/home",
       "orderNumber": 2,
       "tenantId": "ch",
       "url": "card"
@@ -13496,8 +13485,147 @@
     "code": "null",
     "path": "ApplicationCollectPaymentApi"
   },
-      {
+  {
     "id": 30012,
+    "name": "propertyMaster",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:location-city",
+    "queryParams": "branchType=ESTATE_BRANCH"
+  },
+  {
+    "id": 30013,
+    "name": "search-applications",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_SEARCH_APPLICATION_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search-application",
+    "leftIcon": "custom:library-books"
+  },
+  {
+    "id": 30014,
+    "name": "allotment",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_ALLOTMENT_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "tenantId=ch.chandigarh",
+    "navigationURL": "allotment",
+    "leftIcon": "social:location-city"
+  },
+  {
+    "id": 30015,
+    "name": "refund",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_REFUND_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=refund",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "editor:attach-money"
+  },
+  {
+    "id": 30016,
+    "name": "issuing-notice",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_ISSUING_NOTICE_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=EstateBranch_InternalServices_IssuanceOfNotice",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "editor:border-color"
+  },
+  {
+    "id": 30017,
+    "name": "account-statement-generation",
+    "url": "estate-card",
+    "displayName": "ES_ACCOUNT_STATEMENT_GENERATION_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "navigationURL": "/estate/estate-search-account-statement",
+    "leftIcon": "action:assessment"
+  },
+  {
+    "id": 30018,
+    "name": "rent-payment",
+    "url": "estate-card",
+    "displayName": "ES_RENT_PAYMENT_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=payment",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:payment"
+  },
+  {
+    "id": 30019,
+    "name": "property-master",
+    "url": "estate-card",
+    "displayName": "Property Master",
+    "orderNumber": 2,
+    "parentModule": "building-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:location-city",
+    "queryParams": "branchType=BUILDING_BRANCH"
+  },
+  {
+    "id": 30020,
+    "name": "search-applications",
+    "url": "estate-card",
+    "displayName": "Search Applications",
+    "orderNumber": 2,
+    "parentModule": "building-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "custom:library-books"
+  },
+  {
+    "id": 30021,
+    "name": "issuance-of-notice",
+    "url": "estate-card",
+    "displayName": "Issuing Notice",
+    "orderNumber": 2,
+    "parentModule": "building-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "editor:border-color"
+  },
+  {
+    "id": 30022,
+    "name": "penalty",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_PENALTY_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=penalty",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:gavel"
+  },
+  {
+    "displayName": "Estate Properties",
+    "enabled": true,
+    "id": 30023,
+    "leftIcon": "custom:estatebranch",
+    "name": "rainmaker-citizen-estate-properties",
+    "navigationURL": "estate/home",
+    "orderNumber": 2,
+    "tenantId": "ch",
+    "url": "card"
+  },
+      {
+    "id": 30024,
     "name": "PropertyPayRent",
     "url": "/est-services/property-master/_payrent",
     "displayName": "Property Pay Rent api",
@@ -13507,7 +13635,7 @@
     "serviceCode": "PropertyPayRentApi",
     "code": "null",
     "path": "PropertyPayRentApi"
-  },
+    },
     {
       "id": 1812,
       "name": "UC Report",
@@ -15672,7 +15800,7 @@
 		"path": "Agenda Branch.Agenda Meeting.Agenda Update Meeting",
 		"navigationURL": "services/council/councilmeeting/search/edit",
 		"leftIcon": "editor:insert-chart"
-	},	
+	},
 	{
 		"id": "4029",
 		"name": "Agenda Send Sms And Email",
@@ -16432,7 +16560,7 @@
       "navigationURL": "egov-pr/TimeSeriesReport?modulecode=SCP",
       "leftIcon": "action:assignment",
       "rightIcon": ""
-    },	  
+    },
     {
 	"id": 4100,
 	"name": "Apnimandi Create Contractor",
@@ -16952,7 +17080,7 @@
       "code": "null",
       "path": ""
     },
-    
+
     {
       "id": 3015,
       "name": "RPRentCollectionReport",
@@ -17070,7 +17198,7 @@
       "code": "null",
       "path": ""
     },
-    
+
     {
       "id": 3024,
       "name": "RPRentRegistryReport",
@@ -17407,7 +17535,7 @@
             "id": 4210,
             "name": "rainmaker-common-pms",
             "url": "/pension-services/v1/_searchPensionNotificationRegister",
-            "displayName": "Search Pension Notification Register",            
+            "displayName": "Search Pension Notification Register",
             "orderNumber": 1,
             "queryParams": "",
             "parentModule": "273",
@@ -17428,7 +17556,7 @@
             "id": 4211,
             "name": "rainmaker-common-pms",
             "url": "/pension-services/v1/_processWorkflow",
-            "displayName": "Process workflow",            
+            "displayName": "Process workflow",
             "orderNumber": 1,
             "queryParams": "",
             "parentModule": "273",
@@ -17449,7 +17577,7 @@
             "id": 4212,
             "name": "rainmaker-common-pms",
             "url": "/pension-services/v1/_searchWorkflow",
-            "displayName": "Search workflow",            
+            "displayName": "Search workflow",
             "orderNumber": 1,
             "queryParams": "",
             "parentModule": "273",
@@ -17470,7 +17598,7 @@
             "id": 4213,
             "name": "rainmaker-common-pms",
             "url": "/pension-services/v1/_searchEmployeeFromHRMS",
-            "displayName": "Search workflow",            
+            "displayName": "Search workflow",
             "orderNumber": 1,
             "queryParams": "",
             "parentModule": "273",
@@ -17491,7 +17619,7 @@
             "id": 4214,
             "name": "rainmaker-common-pms",
             "url": "/pension-services/v1/_searchPensioner",
-            "displayName": "Search workflow",            
+            "displayName": "Search workflow",
             "orderNumber": 1,
             "queryParams": "",
             "parentModule": "273",
@@ -17512,7 +17640,7 @@
             "id": 4215,
             "name": "rainmaker-common-pms",
             "url": "/pension-services/v1/_searchPensionerForPensionRevision",
-            "displayName": "Search workflow",            
+            "displayName": "Search workflow",
             "orderNumber": 1,
             "queryParams": "",
             "parentModule": "273",
@@ -17533,7 +17661,7 @@
             "id": 4216,
             "name": "rainmaker-common-pms",
             "url": "/pension-services/v1/_updateRevisedPensionOfPensioner",
-            "displayName": "Search workflow",            
+            "displayName": "Search workflow",
             "orderNumber": 1,
             "queryParams": "",
             "parentModule": "273",
@@ -19145,7 +19273,7 @@
 		"serviceCode": "store-asset-services",
 		"code": "null",
 		"path": ""
-	},	
+	},
 	{
 		"id": 4372,
 		"name": "IndentPrint",
@@ -19304,8 +19432,8 @@
 			"navigationURL": "egov-hc/home",
 			"leftIcon": "custom:hcIcon",
 			"rightIcon": ""
-			
-		},        
+
+		},
 		{
 			"id": 2602,
 			"name": "Horticulture",
@@ -19320,7 +19448,7 @@
 			"navigationURL": "egov-hc/employeeServiceRequestsFilter",
 			"leftIcon": "custom:hcIcon",
 			"rightIcon": ""
-			
+
 		},
 
 		{
@@ -19415,7 +19543,7 @@
       "leftIcon": "",
       "rightIcon": ""
      },
-    
+
    {
       "id": 2609,
       "name": "Service Request",
@@ -19451,7 +19579,7 @@
       "leftIcon": "custom:hcIcon",
       "rightIcon": "",
       "queryParams": ""
-    },	  
+    },
 	 {
       "id": 4050,
       "name": "rainmaker-common-wns",
@@ -20423,7 +20551,7 @@
 		"serviceCode": "ec-services",
 		"code": "null",
 		"path": ""
-	},	  
+	},
 	{
 		"id": 4401,
 		"name": "Store",
@@ -21392,7 +21520,7 @@
 		"serviceCode": "nulm-services",
 		"code": "null",
 		"path": ""
-	},	
+	},
 	{
 		"id": 4536,
 		"name": "SUHCitizenCreate",
@@ -21428,7 +21556,7 @@
 		"serviceCode": "nulm-services",
 		"code": "null",
 		"path": ""
-	},	
+	},
 	{
 	      "id": 1961,
 	      "name": "VoucherSearchbyServiceandReference",
@@ -22453,6 +22581,34 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Receipt Report",
       "navigationURL": "services/collection/receipts/daybookReport.action"
-    }
+    },
+	{
+		"id": 6010,
+		"name": "Work Agreement Closure",
+		"url": "services/works/boq/closuresearchPage",
+		"displayName": "Work Agreement Closure",
+		"orderNumber": "5",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Work Agreement.Work Agreement Closure",
+		"navigationURL": "services/works/boq/closuresearchPage",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6011,
+		"name": "Work Agreement Progress Update",
+		"url": "services/works/boq/progressUpdate",
+		"displayName": "Work Agreement Progress Update",
+		"orderNumber": "6",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Work Agreement.Work Agreement Progress Update",
+		"navigationURL": "services/works/boq/progressUpdate",
+		"leftIcon": "editor:insert-chart"
+	}
   ]
 }
