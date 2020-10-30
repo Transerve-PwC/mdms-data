@@ -136,15 +136,19 @@
                 },
                 {
                   "label": "ES_HOUSE_NO_LABEL",
-                  "jsonPath": "property.houseNumber"
+                  "jsonPath": "property.propertyDetails.houseNumber"
                 },
                 {
                   "label": "ES_MOHALLA_LABEL",
-                  "jsonPath": "property.mohalla"
+                  "jsonPath": "property.propertyDetails.mohalla"
                 },
                 {
                   "label": "ES_VILLAGE_LABEL",
-                  "jsonPath": "property.village"
+                  "jsonPath": "property.propertyDetails.village"
+                },
+                {
+                  "label": "ES_SIZE_OF_AREA_PURCHASED_LABEL",
+                  "jsonPath": "property.propertyDetails.areaSqft"
                 }
               ]
             },
@@ -279,6 +283,10 @@
                 {
                   "label": "ES_MOHALLA_LABEL",
                   "jsonPath": "Applications[0].property.propertyDetails.mohalla"
+                },
+                {
+                  "label": "ES_SIZE_OF_AREA_PURCHASED_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.areaSqft"
                 }
               ]
             },
