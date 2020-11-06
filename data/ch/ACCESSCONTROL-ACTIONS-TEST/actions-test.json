@@ -13603,7 +13603,7 @@
     "enabled": true,
     "navigationURL": "/estate/property-search",
     "leftIcon": "editor:border-color",
-    "queryParams": "branchType=BuildingBranch_CitizenServices_IssuanceOfNotice"
+    "queryParams": "branchType=BUILDING_BRANCH&type=BuildingBranch_CitizenServices_IssuanceOfNotice"
   },
   {
     "id": 30022,
@@ -21690,6 +21690,21 @@
 		"rightIcon": ""
 	},
 	{
+		"id": 4566,
+		"name": "Vendor Registration Update",
+		"url": "url",
+		"displayName": "Vendor Registration Update",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-nulm",
+		"enabled": true,
+		"serviceCode": "NULM",
+		"code": "null",
+		"path": "NULM.SUSV Program.Vendor Registration Update",
+		"navigationURL": "egov-nulm/search-svru",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
+	{
 		"id": 4565,
 		"name": "Transaction Tracking",
 		"url": "url",
@@ -21699,7 +21714,7 @@
 		"enabled": true,
 		"serviceCode": "NULM",
 		"code": "null",
-		"path": "NULM.SUSV Program.Transaction Tracking",
+		"path": "NULM.Transaction Tracking",
 		"navigationURL": "egov-nulm/search-susv-transaction",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
