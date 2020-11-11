@@ -1039,7 +1039,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.mobileNumber}",
+              "trigger" : "ES_PENDING_PAYMENT"
             }
           }
         },
@@ -1059,7 +1060,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{owner.id}"
+              "to": "{owner.mobileNumber}",
+              "trigger" : "ES_PENDING_PAYMENT"
             }
           }
         },
@@ -1079,7 +1081,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.mobileNumber}",
+              "trigger" : "ES_PENDING_PAYMENT"
             }
           }
         },
@@ -1099,7 +1102,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.mobileNumber}",
+              "trigger" : "ES_PENDING_PAYMENT"
             }
           }
         }
