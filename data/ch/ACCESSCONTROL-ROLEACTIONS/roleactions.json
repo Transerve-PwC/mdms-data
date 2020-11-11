@@ -42219,21 +42219,33 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
-		  		  	  {
-			"rolecode": "ES_EB_FINANCIAL_OFFICER",
+		  {
+			"rolecode": "EMPLOYEE",
 			"actionid": 30026,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CITIZEN",
+			"actionid": 30026,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		 {
+			"rolecode": "ES_EB_FINANCIAL_OFFICER",
+			"actionid": 30027,
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
 		  {
 			"rolecode": "ES_BB_FINANCIAL_OFFICER",
-			"actionid": 30026,
+			"actionid": 30027,
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
 		  {
 			"rolecode": "ES_MM_FINANCIAL_OFFICER",
-			"actionid": 30026,
+			"actionid": 30027,
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
@@ -52644,6 +52656,54 @@
 			{
 				"rolecode": "CITIZEN",
 				"actionid": 4566,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4567,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4567,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4568,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4568,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4569,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4569,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4570,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4570,
 				"actioncode": "",
 				"tenantId": "ch"
 			},
