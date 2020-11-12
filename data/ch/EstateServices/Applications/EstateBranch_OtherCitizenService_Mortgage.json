@@ -572,8 +572,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.mobileNumber}",
-              "trigger" : "ES_PENDING_PAYMENT"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -593,8 +592,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{owner.mobileNumber}",
-              "trigger" : "ES_PENDING_PAYMENT"
+              "to": "{createdBy.uuid}",
+             "isPayLink" : true
             }
           }
         },
@@ -614,8 +613,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.mobileNumber}",
-              "trigger" : "ES_PENDING_PAYMENT"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -635,8 +633,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.mobileNumber}",
-              "trigger" : "ES_PENDING_PAYMENT"
+              "to": "{createdBy.uuid}"
             }
           }
         }

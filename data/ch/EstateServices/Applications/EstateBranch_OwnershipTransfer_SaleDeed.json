@@ -832,7 +832,7 @@
                 "event" : {
                     "enabled" : true,
                     "to" : "{owner.mobileNumber}",
-                    "trigger" : "ES_PENDING_PAYMENT"
+                   "isPayLink" : true
                 }
             }
         },
