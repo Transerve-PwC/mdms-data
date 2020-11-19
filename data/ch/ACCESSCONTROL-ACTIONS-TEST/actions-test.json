@@ -22625,6 +22625,18 @@
 		"path": "Works.Work Agreement.Work Agreement Progress Update",
 		"navigationURL": "services/works/boq/progressUpdate",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+    {
+      "id": 30033,
+      "name": "SavePropertyDetailsDemand",
+      "url": "/est-services/estate-demands/_create",
+      "displayName": "Save Property Details Estate Demand Master api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "SavePropertyDetailsDemand",
+      "code": "null",
+      "path": "SavePropertyDetailsDemand"
+    }
   ]
 }

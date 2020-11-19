@@ -53365,6 +53365,12 @@
 			"actionid": 1834,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30033,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }
