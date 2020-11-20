@@ -13609,12 +13609,11 @@
     "id": 30022,
     "name": "penalty",
     "url": "estate-card",
-    "displayName": "ES_PROPERTY_MASTER_PENALTY_HEADER",
+    "displayName": "ES_PENALTY_FEE_HEADER",
     "orderNumber": 2,
     "parentModule": "estate-branch",
     "enabled": true,
-    "queryParams": "type=penalty",
-    "navigationURL": "/estate/property-search",
+    "navigationURL": "/estate/penalty-fee",
     "leftIcon": "action:gavel"
   },
   { 
@@ -13921,6 +13920,30 @@
     "serviceCode": "report",
     "code": "null",
     "path": ""
+  },
+  {
+    "id": 30029,
+    "name": "property-master",
+    "url": "estate-card",
+    "displayName": "Property Master",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:location-city",
+    "queryParams": "branchType=MANIMAJRA_BRANCH"
+  },
+  {
+    "id": 30030,
+    "name": "search-applications",
+    "url": "estate-card",
+    "displayName": "Search Applications",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search-application",
+    "leftIcon": "custom:library-books",
+    "queryParams": "branchType=ManimajraBranch"
   },
     {
       "id": 1812,
@@ -14479,6 +14502,17 @@
       "name": "Collection Create Reciept",
       "url": "/collection-services/payments/_create",
       "displayName": "Create Payment",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1895,
+      "name": "Collection Cancel Reciept",
+      "url": "/collection-services/payments/_cancel",
+      "displayName": "Cancel Payment",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "COLLECTION",
@@ -20238,6 +20272,17 @@
       "path": ""
     },
 	{
+      "id": 4095,
+      "name": "Water insert bill data",
+      "url": "/ws-services/billGeneration/_saveBilling",
+      "displayName": "Water insert bill data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
@@ -20934,7 +20979,7 @@
 		"enabled": true,
 		"serviceCode": "STORE",
 		"code": "null",
-		"path": "Store.Store Asset Master.Opening Balance",
+		"path": "Store.Opening Balance",
 		"navigationURL": "egov-store-asset/search-opening-balence",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
@@ -22028,7 +22073,7 @@
 	{
 		"id": 4569,
 		"name": "update susvr application",
-		"url": "/nulm-services//v1/susv/renew/_update",
+		"url": "/nulm-services/v1/susv/renew/_update",
 		"displayName": "update susv application",
 		"orderNumber": 1,
 		"parentModule": "",
@@ -22958,6 +23003,82 @@
 		"path": "Works.Work Agreement.Work Agreement Progress Update",
 		"navigationURL": "services/works/boq/progressUpdate",
 		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6012,
+		"name": "Manage Auditor/RSA",
+		"url": "services/audit/manageAuditor/manageAudform",
+		"displayName": "Manage Auditor/RSA",
+		"orderNumber": "1",
+		"parentModule": "audit",
+		"enabled": true,
+		"serviceCode": "audit",
+		"code": "",
+		"path": "Audit.Manage Auditor/RSA",
+		"navigationURL": "services/audit/manageAuditor/manageAudform",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6013,
+		"name": "Manage Audit Task",
+		"url": "services/audit/createAudit/post/auditStateSearch",
+		"displayName": "Manage Audit Task",
+		"orderNumber": "1",
+		"parentModule": "audit",
+		"enabled": true,
+		"serviceCode": "audit",
+		"code": "",
+		"path": "Audit.Manage Audit Task",
+		"navigationURL": "services/audit/createAudit/post/auditStateSearch",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6014,
+		"name": "getotp",
+		"url": "/integration-services/pt/v1/_getOTP",
+		"displayName": "Get OTP",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6015,
+		"name": "verifyotp",
+		"url": "/integration-services/pt/v1/_verifyOTP",
+		"displayName": "Verify OTP",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6016,
+		"name": "getSectorList",
+		"url": "/integration-services/pt/v1/_getSectorList",
+		"displayName": "getSectorList",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6017,
+		"name": "getPropertyByPID",
+		"url": "/integration-services/pt/v1/_getPropertyByPID",
+		"displayName": "getPropertyByPID",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
 	}
   ]
 }
