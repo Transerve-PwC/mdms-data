@@ -42297,6 +42297,66 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
+		  {
+			"rolecode": "ES_EB_FINANCIAL_OFFICER",
+			"actionid": 30029,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_BB_FINANCIAL_OFFICER",
+			"actionid": 30029,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_FINANCIAL_OFFICER",
+			"actionid": 30029,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_FINANCIAL_OFFICER",
+			"actionid": 30030,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_BB_FINANCIAL_OFFICER",
+			"actionid": 30030,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_FINANCIAL_OFFICER",
+			"actionid": 30030,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_FINANCIAL_OFFICER",
+			"actionid": 30031,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_BB_FINANCIAL_OFFICER",
+			"actionid": 30031,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_FINANCIAL_OFFICER",
+			"actionid": 30031,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CITIZEN",
+			"actionid": 30031,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
 		{
 			"rolecode": "SASO",
 			"actionid": 4302,
