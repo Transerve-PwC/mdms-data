@@ -433,22 +433,42 @@
         },
         {
           "state": "ES_PENDING_PAYMENT",
-          "content": "Hi {owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "content": "Hi {createdBy.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
           "modes": {
             "email": {
               "enabled": true,
               "html": false,
-              "to": "{owner.email}",
+              "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
             },
             "sms": {
               "enabled": true,
-              "to": "{owner.mobileNumber}"
+              "to": "{createdBy.mobileNumber}"
             },
             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}",
              "isPayLink" : true
+            }
+          }
+        },
+        {
+          "state": "ES_PENDING_CLARIFICATION",
+          "content": "Hi {createdBy.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{createdBy.mobileNumber}"
+            },
+             "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -473,8 +493,8 @@
           }
         },
         {
-          "state": "ES_APPROVED",
-          "content": "Hi {createdBy.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved. Please note your serial number {serialNumber} for future reference.",
+          "state": "ES_PENDING_DA_FEE",
+          "content": "Hi {createdBy.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
           "modes": {
             "email": {
               "enabled": true,
@@ -491,6 +511,26 @@
               "to": "{createdBy.uuid}"
             }
           }
+        },
+          {
+            "state": "ES_APPROVED",
+            "content": "Hi {createdBy.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved. Please note your serial number {serialNumber} for future reference.",
+            "modes": {
+              "email": {
+                "enabled": true,
+                "html": false,
+                "to": "{createdBy.emailId}",
+                "subject": "CSCL - Intimation for application {applicationNumber}"
+              },
+              "sms": {
+                "enabled": true,
+                "to": "{createdBy.mobileNumber}"
+              },
+               "event": {
+                "enabled": true,
+                "to": "{createdBy.uuid}"
+              }
+            }
         }
       ],
 	 "feePercentGST" : [],	
