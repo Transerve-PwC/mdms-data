@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "ManiMajra_CitizenService_NOC": [
+  "ManiMajra_OtherCitizenService_NOC": [
     {
       "fields": [
         {
@@ -19,6 +19,19 @@
           "validations": [
             {
               "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "areaToBeConverted",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 1,
+                "max": 100000
+              }
             }
           ]
         },

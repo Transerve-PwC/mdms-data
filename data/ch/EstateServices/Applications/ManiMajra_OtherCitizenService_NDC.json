@@ -1,23 +1,9 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "ManiMajra_CitizenService_AllotmentOfHouse": [
+  "ManiMajra_OtherCitizenService_NDC": [
     {
       "fields": [
-        {
-          "path": "modeOfAllotment",
-          "required": true,
-          "validations": [
-            {
-              "type": "mdms",
-              "params": {
-                "moduleName": "EstateServices",
-                "masterName": "modeOfAllotment",
-                "filter": "modeOfAllotment..code"
-              }
-            }
-          ]
-        },
         {
           "path": "owner",
           "required": true,
@@ -28,129 +14,11 @@
           ]
         },
         {
-          "path": "owner.name",
+          "path": "owner.id",
           "required": true,
           "validations": [
             {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
-          "path": "owner.dob",
-          "required": true,
-          "validations": [
-            {
-              "type": "date-range",
-              "params": {
-                "start": {
-                  "unit": "year",
-                  "value": -100
-                },
-                "end": {
-                  "unit": "second",
-                  "value": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "path": "owner.fatherOrHusbandName",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
-          "path": "owner.relation",
-          "required": true,
-          "validations": [
-            {
-              "type": "enum",
-              "params": {
-                "values": ["FATHER", "HUSBAND"]
-              }
-            }
-          ]
-        },
-        {
-          "path": "owner.address",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
-          "path": "owner.mobileNo",
-          "required": false,
-          "validations": [
-            {
-              "type": "mobile"
-            }
-          ]
-        },
-        {
-          "path": "owner.percentageOfShare",
-          "required": true,
-          "validations": [
-            {
-              "type": "numeric"
-            },
-            {
-              "type": "minmax",
-              "params": {
-                "min": 0,
-                "max": 100
-              }
-            }
-          ]
-        },
-        {
-          "path": "registrationNumber",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 100
-              }
-            }
-          ]
-        },
-        {
-          "path": "dateOfRegistration",
-          "required": true,
-          "validations": [
-            {
-              "type": "date-range",
-              "params": {
-                "start": {
-                  "unit": "year",
-                  "value": -40
-                },
-                "end": {
-                  "unit": "second",
-                  "value": 0
-                }
-              }
+              "type": "owner"
             }
           ]
         },
@@ -196,27 +64,6 @@
           }
         },
         {
-          "state": "ES_MM_PENDING_PAYMENT",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
-          "modes": {
-            "email": {
-              "enabled": false,
-              "html": false,
-              "to": "{createdBy.emailId}",
-              "subject": "CSCL - Intimation for application {applicationNumber}"
-            },
-            "sms": {
-              "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
-            },
-            "event": {
-              "enabled": true,
-              "to": "{createdBy.uuid}",
-              "isPayLink": true
-            }
-          }
-        },
-        {
           "state": "ES_MM_PENDING_CLARIFICATION",
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
           "modes": {
@@ -242,26 +89,6 @@
           "modes": {
             "email": {
               "enabled": false,
-              "html": false,
-              "to": "{createdBy.emailId}",
-              "subject": "CSCL - Intimation for application {applicationNumber}"
-            },
-            "sms": {
-              "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
-            },
-            "event": {
-              "enabled": true,
-              "to": "{createdBy.uuid}"
-            }
-          }
-        },
-        {
-          "state": "ES_MM_PENDING_DA_FEE",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
-          "modes": {
-            "email": {
-              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
