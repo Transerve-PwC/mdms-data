@@ -9,7 +9,7 @@
     },
     {
       "name": "Issuance of Show Cause Notice",
-      "code": "ES_BB_NOC",
+      "code": "ES_BB_SHOW_CAUSE_NOTICE",
       "type": "BuildingBranch_CitizenService_IssuanceOfNotice"
     }
   ]
