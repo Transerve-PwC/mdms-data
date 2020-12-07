@@ -9,7 +9,6 @@
         {
           "type": "SAMPLE_SITE_MAP",
           "code": "SAMPLE_SITE_MAP",
-          "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": {
