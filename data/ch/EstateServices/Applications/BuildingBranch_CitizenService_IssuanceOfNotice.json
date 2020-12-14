@@ -1025,7 +1025,7 @@
               "to": "{owner.mobileNumber}"
             },
             "event": {
-              "enabled": true,
+              "enabled": false,
               "to": "{owner.id}"
             }
           }
@@ -1045,7 +1045,7 @@
               "to": "{owner.mobileNumber}"
             },
             "event": {
-              "enabled": true,
+              "enabled": false,
               "to": "{owner.id}"
             }
           }
@@ -1065,7 +1065,7 @@
               "to": "{owner.mobileNumber}"
             },
             "event": {
-              "enabled": true,
+              "enabled": false,
               "to": "{owner.id}"
             }
           }
