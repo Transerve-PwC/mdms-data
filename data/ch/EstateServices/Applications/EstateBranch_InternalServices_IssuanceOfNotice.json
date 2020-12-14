@@ -586,7 +586,7 @@
       "notifications": [
         {
           "state": "ES_PENDING_DA_HEARING_APPROVAL",
-          "content": "Hi {owner.name}, \n Your property of estate number {property.fileNumber} has been found to be under [ES_{branchType}_{moduleType}_{applicationType}]. Please note your application number {applicationNumber} for further reference.",
+          "content": "Hi {owner.name} for your property bearing  File Number {fileNumber}  a notice is issued.In this regard you are hereby by requested to attend the hearing on xx of MMM-YY",
           "modes": {
             "email": {
               "enabled": true,
@@ -626,7 +626,7 @@
         },
         {
           "state": "ES_APPROVED",
-          "content": "Hi {owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved. Please note your serial number {serialNumber} for future reference.",
+          "content": "Hi {onwer.name} for your property bearing File Number {fileNumber} a violation notice is issued.It will be sent to you shortly by post.",
           "modes": {
             "email": {
               "enabled": true,
