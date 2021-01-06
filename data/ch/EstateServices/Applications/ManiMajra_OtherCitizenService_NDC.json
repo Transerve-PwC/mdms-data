@@ -359,7 +359,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -369,7 +369,7 @@
         },
         {
           "state": "ES_MM_PENDING_DA_FEE",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
           "modes": {
             "email": {
               "enabled": true,
@@ -379,7 +379,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -389,7 +389,7 @@
         },
         {
           "state": "ES_MM_PENDING_PAYMENT",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
           "modes": {
             "email": {
               "enabled": false,
@@ -399,7 +399,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -420,7 +420,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -440,7 +440,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -450,7 +450,7 @@
         },
         {
           "state": "PAYMENT_NOTIFICATION",
-          "content": "Hi {applicationDetails.transferee.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
+          "content": "Hi {applicationDetails.owner.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
           "modes": {
             "email": {
               "enabled": false,
@@ -460,7 +460,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -500,7 +500,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,

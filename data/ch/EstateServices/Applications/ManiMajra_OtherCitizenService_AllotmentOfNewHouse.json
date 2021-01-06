@@ -521,7 +521,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -541,7 +541,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -562,7 +562,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -582,7 +582,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -602,7 +602,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -612,7 +612,7 @@
         },
         {
           "state": "PAYMENT_NOTIFICATION",
-          "content": "Hi {applicationDetails.transferee.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
+          "content": "Hi {applicationDetails.owner.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
           "modes": {
             "email": {
               "enabled": false,
@@ -622,7 +622,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -662,7 +662,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
