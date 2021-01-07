@@ -521,7 +521,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+              "to": "{applicationDetails.owner.mobileNo}"
             },
             "event": {
               "enabled": true,
@@ -541,7 +541,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+              "to": "{applicationDetails.owner.mobileNo}"
             },
             "event": {
               "enabled": true,
@@ -562,7 +562,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+              "to": "{applicationDetails.owner.mobileNo}"
             },
             "event": {
               "enabled": true,
@@ -582,7 +582,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+              "to": "{applicationDetails.owner.mobileNo}"
             },
             "event": {
               "enabled": true,
@@ -602,7 +602,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+              "to": "{applicationDetails.owner.mobileNo}"
             },
             "event": {
               "enabled": true,
@@ -622,7 +622,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+              "to": "{applicationDetails.owner.mobileNo}"
             },
             "event": {
               "enabled": true,
@@ -662,7 +662,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+              "to": "{applicationDetails.owner.mobileNo}"
             },
             "event": {
               "enabled": true,
