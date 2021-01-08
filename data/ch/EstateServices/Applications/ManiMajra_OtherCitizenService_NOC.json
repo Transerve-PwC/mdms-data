@@ -343,7 +343,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -363,7 +363,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -383,7 +383,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -404,7 +404,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -424,7 +424,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -444,7 +444,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -484,7 +484,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
