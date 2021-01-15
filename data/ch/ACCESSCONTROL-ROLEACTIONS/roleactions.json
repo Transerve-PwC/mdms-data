@@ -54925,6 +54925,12 @@
 				"actionid": 9002,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "ES_EB_SECTION_OFFICER",
+				"actionid": 30015,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
