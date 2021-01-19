@@ -41932,6 +41932,60 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_DISPATCH_OFFICER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_DEALING_ASSISTANT",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SECTION_OFFICER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SR_ASSISTANT",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_FINANCIAL_OFFICER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_LOCAL_AUDIT_OFFICER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_CHEIF_ACCOUNTS_OFFICER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_DEALING_ASSISTANT",
 			"actionid": 30016,
 			"actioncode": "",
@@ -54869,12 +54923,6 @@
 			{
 				"rolecode": "AGENDA_NOTICE",
 				"actionid": 9002,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "ES_EB_SECTION_OFFICER",
-				"actionid": 30015,
 				"actioncode": "",
 				"tenantId": "ch"
 			}
