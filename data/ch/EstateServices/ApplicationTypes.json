@@ -130,6 +130,15 @@
       "branchType": "ESTATE_BRANCH"
     },
     {
+      "name": "Permission to Mortgage Intimation",
+      "code": "ES_INTIMATION_TO_MORTGAGE",
+      "type": "EstateBranch_OtherCitizenService_MortgageIntimation",
+      "active": true,
+      "filter": true,
+      "applicationType": "Mortgage",
+      "branchType": "ESTATE_BRANCH"
+    },
+    {
       "name": "Change of Trade",
       "code": "ES_CHANGE_OF_TRADE",
       "type": "EstateBranch_OtherCitizenService_ChangeInTrade",
