@@ -126,6 +126,7 @@
       "type": "EstateBranch_OtherCitizenService_Mortgage",
       "active": true,
       "filter": true,
+      "category": "ES_MORTGAGE",
       "applicationType": "Mortgage",
       "branchType": "ESTATE_BRANCH"
     },
@@ -135,6 +136,7 @@
       "type": "EstateBranch_OtherCitizenService_MortgageIntimation",
       "active": true,
       "filter": true,
+      "category": "ES_MORTGAGE",
       "applicationType": "Mortgage",
       "branchType": "ESTATE_BRANCH"
     },
