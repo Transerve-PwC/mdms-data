@@ -606,7 +606,7 @@
         },
         {
           "state": "ES_REJECTED",
-          "content": "Hi {owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected.",
+          "content": "Hi {applicationDetails.transferor.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected.",
           "modes": {
             "email": {
               "enabled": true,
@@ -616,7 +616,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{owner.mobileNumber}"
+              "to": "{applicationDetails.transferor.transferorDetails.mobileNumber}"
             },
             "event": {
               "enabled": false,
