@@ -953,7 +953,7 @@
         },
         {
           "state": "ES_MM_PENDING_PAYMENT",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
           "modes": {
             "email": {
               "enabled": true,
@@ -994,7 +994,7 @@
         },
         {
           "state": "ES_MM_REJECTED",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application number {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
           "modes": {
             "email": {
               "enabled": true,
@@ -1054,7 +1054,7 @@
         },
         {
           "state": "ES_MM_APPROVED",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application number {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
           "modes": {
             "email": {
               "enabled": true,
