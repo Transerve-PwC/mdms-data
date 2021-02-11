@@ -479,7 +479,6 @@
             },
             {
               "header": "ES_APPLICANT_DETAILS_HEADER",
-              "isEditable": false,
               "fields": [
                 {
                   "label": "ES_OWNER_NAME_LABEL",
