@@ -1027,7 +1027,7 @@
       "notifications": [
         {
           "state": "ES_PENDING_SDE_VERIFICATION",
-          "content": "Hi {applicationDetails.transferor.name} for your property bearing file Number {property.fileNumber} a notice is issued.In this regard you are hereby by requested to attend the hearing on {applicationDetails.dateOfHearing} at {applicationDetails.timeOfHearing}",
+          "content": "Hi {applicationDetails.transferor.name},\nFor your property bearing file Number {property.fileNumber} a notice is issued.In this regard you are hereby by requested to attend the hearing on {applicationDetails.dateOfHearing} at {applicationDetails.timeOfHearing}",
           "modes": {
             "email": {
               "enabled": true,
@@ -1047,7 +1047,7 @@
         },
         {
           "state": "ES_REJECTED",
-          "content": "Hi {applicationDetails.transferor.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected.",
+          "content": "Hi {applicationDetails.transferor.name},\nYour application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected.",
           "modes": {
             "email": {
               "enabled": true,
@@ -1067,7 +1067,7 @@
         },
         {
           "state": "ES_APPROVED",
-          "content": "Hi {applicationDetails.transferor.name} for your property bearing  File Number {property.fileNumber}  a violation notice is issued.It will be sent to you shortly by post.",
+          "content": "Hi {applicationDetails.transferor.name},\nFor your property bearing  File Number {property.fileNumber}  a violation notice is issued.It will be sent to you shortly by post.",
           "modes": {
             "email": {
               "enabled": true,

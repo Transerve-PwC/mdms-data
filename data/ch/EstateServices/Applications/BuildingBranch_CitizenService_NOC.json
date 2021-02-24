@@ -743,7 +743,7 @@
       "notifications": [
         {
           "state": "ES_PENDING_DS_VERIFICATION",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
+          "content": "Hi {applicationDetails.owner.name},\nYour application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
           "modes": {
             "email": {
               "enabled": true,
@@ -763,7 +763,7 @@
         },
         {
           "state": "ES_PENDING_PAYMENT",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
+          "content": "Hi {applicationDetails.owner.name},\nYour application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
           "modes": {
             "email": {
               "enabled": true,
@@ -784,7 +784,7 @@
         },
         {
           "state": "ES_PENDING_CLARIFICATION",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
+          "content": "Hi {applicationDetails.owner.name},\nYour application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
           "modes": {
             "email": {
               "enabled": true,
@@ -804,7 +804,7 @@
         },
         {
           "state": "ES_REJECTED",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
+          "content": "Hi {applicationDetails.owner.name},\nYour application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
           "modes": {
             "email": {
               "enabled": true,
@@ -824,7 +824,7 @@
         },
         {
           "state": "ES_PENDING_DA_FEE",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "content": "Hi {applicationDetails.owner.name},\nYour application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
           "modes": {
             "email": {
               "enabled": true,
@@ -844,7 +844,7 @@
         },
         {
           "state": "PAYMENT_NOTIFICATION",
-          "content": "Hi {applicationDetails.owner.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
+          "content": "Hi {applicationDetails.owner.name},\nThe payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
           "modes": {
             "email": {
               "enabled": true,
@@ -864,7 +864,7 @@
         },
         {
           "state": "PAYMENT_NOTIFICATION_PAYER",
-          "content": "Hi {payer.name}, \n A payment of Rs {paymentAmount} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
+          "content": "Hi {payer.name},\nA payment of Rs {paymentAmount} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
           "modes": {
             "email": {
               "enabled": true,
@@ -884,7 +884,7 @@
         },
           {
             "state": "ES_APPROVED",
-            "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
+            "content": "Hi {applicationDetails.owner.name},\nYour application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
             "modes": {
               "email": {
                 "enabled": true,
