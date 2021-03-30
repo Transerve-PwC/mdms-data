@@ -214,6 +214,16 @@
           "description": "CLEARANCE_AGAINST_PROPERTY_TAX_TILL_CURRENT_FINANCIAL_YEAR_DESCRIPTION"
         }
       ],
+      "wfDocumentList": [
+        {
+          "code": "WF_DOCS_FINAL_LETTER",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "WF_DOCS_FINAL_LETTER_DESCRIPTION",
+          "filter": "application.state === 'ES_PENDING_DA_PREPARE_LETTER'"
+        }
+      ],
       "uiConfig": {
         "dataSources": [
           {
